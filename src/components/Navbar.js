@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light fixed-top">
+      <nav className="navbar navbar-expand-sm navbar-light fixed-top">
         <div className="container">
           <Link className="navbar-brand" to={"/sign-in"}>
             Logo
